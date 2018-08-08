@@ -8,6 +8,5 @@ def least_coins(cents)
   f = d%5
     g = f/1
   final = a + c + e + g
+  puts final
 end
-
-puts final
