@@ -4,11 +4,11 @@ def least_coins(cents)
   x = 189
   v = x%25
   puts v
-  w = x%10
+  w = x-v%10
   puts w
-  y = x%5
+  y = x-v-w%5
   puts y
-  z = x%1
+  z = x-v-w-y%1
   puts z
 end
 
