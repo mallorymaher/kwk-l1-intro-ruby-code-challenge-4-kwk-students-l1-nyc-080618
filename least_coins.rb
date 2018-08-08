@@ -1,3 +1,5 @@
+
+
 def least_coins(cents)
   x = 189
     a = x/25
@@ -10,3 +12,5 @@ def least_coins(cents)
   final = a + c + e + g
   puts final
 end
+
+puts least_coins
