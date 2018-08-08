@@ -1,7 +1,6 @@
-#write out your code here
+coins = {:quarter = "25", :dime = "10", :nickel = "5", :penny = "1"}
 
 def least_coins(cents)
-
-#Code your answer here!
-
+  v = x/25
+  w
 end
