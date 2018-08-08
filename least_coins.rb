@@ -1,4 +1,4 @@
-def least_coins(cents)
+def least_coins(x)
   x = 189
     a = x/25
   b = x%25
@@ -11,4 +11,4 @@ def least_coins(cents)
   puts final
 end
 
-puts least_coins(cents)
+puts least_coins(x)
