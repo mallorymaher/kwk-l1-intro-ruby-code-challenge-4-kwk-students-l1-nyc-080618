@@ -1,4 +1,4 @@
-x = 50
+x = 100
 
 def least_coins(x)
     a = x/25
