@@ -11,4 +11,4 @@ def least_coins(x)
   puts final
 end
 
-puts least_coins(x)
+least_coins(x)
