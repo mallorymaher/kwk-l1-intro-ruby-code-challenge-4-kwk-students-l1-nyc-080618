@@ -2,13 +2,14 @@ cents = {:quarter => "25", :dime => "10", :nickel => "5", :penny => "1"}
 
 def least_coins(cents)
   x = 189
-  v = x/25
+  v = x%25
   puts v
-  w = x/10
+  w = x%10
   puts w
-  y = x/5
+  y = x%5
   puts y
-  z = x/1
+  z = x%1
+  puts z
 end
 
 puts least_coins(cents)
