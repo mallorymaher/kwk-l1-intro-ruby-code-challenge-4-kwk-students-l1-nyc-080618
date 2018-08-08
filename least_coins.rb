@@ -1,5 +1,6 @@
+x = 189
+
 def least_coins(x)
-  x = 189
     a = x/25
   b = x%25
     c = b/10
