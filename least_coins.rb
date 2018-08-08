@@ -1,4 +1,4 @@
-x = 345
+x = 50
 
 def least_coins(x)
     a = x/25
